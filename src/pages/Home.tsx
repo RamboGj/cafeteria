@@ -1,6 +1,6 @@
-import heroImg from '../public/hero.png'
-import coffeBrush from '../public/coffeBrush.png'
-import coffeBrush2 from '../public/coffeBrush2.png'
+import heroImg from '../assets/hero.png'
+import coffeBrush from '../assets/coffeBrush.png'
+import coffeBrush2 from '../assets/coffeBrush2.png'
 import CoffesMenu from '../components/CoffesMenu'
 import ListOfItemsHome from '../components/ListOfItemsHome'
 

@@ -1,6 +1,6 @@
 import { Minus, Plus, ShoppingCart } from 'phosphor-react'
 import { useState } from 'react'
-import coffePhoto from '../public/americano.svg'
+import coffePhoto from '../assets/americano.svg'
 
 export default function CoffeCard() {
     const [coffeAmount, setCoffeAmount] = useState<number>(0)
