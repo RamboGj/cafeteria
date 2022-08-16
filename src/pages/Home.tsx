@@ -1,6 +1,6 @@
-import heroImg from '../assets/hero.png'
-// import coffeBrush from '../assets/coffeBrush.png'
-// import coffeBrush2 from '../assets/coffeBrush2.png'
+import heroImg from '../assets/hero.svg'
+import coffeBrush from '../assets/coffeBrush.svg'
+import coffeBrush2 from '../assets/coffeBrush2.svg'
 import CoffesMenu from '../components/CoffesMenu'
 import ListOfItemsHome from '../components/ListOfItemsHome'
 
@@ -17,14 +17,14 @@ export default function Home() {
         <div className={styles.wrapper}>
             <div className={styles.firstContentWrapper}>
                 <div className={styles.contentTextWrapper}>
-                    {/* <img className="z-10 fixed opacity-30" src={coffeBrush2} alt="" /> */}
+                    <img className="z-10 fixed opacity-30" src={coffeBrush2} alt="" />
                     <h1 className={styles.title}>Encontre o café perfeito para qualquer hora do dia</h1>
                     <p className={styles.subtitle}>Com o Coffee Delivery você recebe seu café onde estiver, a qualquer hora</p>
-                    {/* <img className="z-10 fixed opacity-30" src={coffeBrush} alt="" /> */}
+                    <img className="z-10 fixed opacity-30" src={coffeBrush} alt="" />
                     <ListOfItemsHome /> 
                 </div>
                 <div>
-                    {/* <img className="hidden lg:flex" src={heroImg} alt="coffe cup" /> */}
+                    <img className="hidden lg:flex" src={heroImg} alt="coffe cup" />
                 </div>
             </div>
             <CoffesMenu />
