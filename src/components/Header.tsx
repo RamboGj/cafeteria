@@ -1,6 +1,6 @@
 import { MapPin, ShoppingCart } from "phosphor-react"
 import { NavLink, Outlet } from "react-router-dom"
-import logo from '../assets/logo.svg'
+import logo from '../../public/logo.svg'
 
 const styles = {
     wrapper: 'w-full py-8 px-40 flex justify-between mx-auto',
