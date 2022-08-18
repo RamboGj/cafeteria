@@ -12,6 +12,8 @@ body {
   max-width: 1440px;
   margin: 0 auto;
 
+  box-shadow: none;
+
   @apply bg-background;
 }
 
