@@ -14,7 +14,7 @@ export default function OrderDone() {
                                 <MapPin className="text-white" weight="fill"size={18} />
                             </div>
                             <div>
-                                <p>Entrega em <strong>Rua Governador Jorge Lacerda, 2515</strong></p>
+                                <p>Entrega em <strong>Rua Blabla blab bla, 6753</strong></p>
                                 <p>Bairro, Cidade, UF</p>
                             </div>
                         </li>
